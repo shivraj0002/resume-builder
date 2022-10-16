@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /* height: 10vh; */
+  background-color: #f0f0f0;
+  width: 98.6vw;
+}
+.nav-logo {
+  margin-left: 27px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+}
+.nav-logo > img {
+  height: 60px;
+  width: 60px;
+}
+.nav-logo > h1 {
+  margin-left: 5px;
+  font-family: "Dancing Script", cursive;
+}
+
+.nav-List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.nav-list-items {
+  margin: 5px 20px 5px 20px;
+}
+.nav-list-items > a {
+  margin: 5px 20px 5px 20px;
+}
+.logOutBtn {
+  width: 90px;
+  height: 35px;
+  background-color: #ff1a1a;
+  color: white;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 8px 0px 8px 0px;
+}
+
+.logOutBtn:hover {
+  /* background-color: whitesmoke; */
+  background-color: #ff8080;
+  color: black;
+  border: #ff1a1a solid 2px;
+  cursor: pointer;
+}
+
+
+
+.signInbtn {
+ 
+  width: 90px;
+  height: 35px;
+  background-color: #1af0ff;
+  color: black;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 8px 0px 8px 0px;
+}
+
+.signInbtn:hover {
+  /* background-color: whitesmoke; */
+  background-color: #00d6e6;
+  color: black;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 546px) {
+  .nav-List {
+    flex-wrap: wrap;
+  }
+
+  .nav-logo > img {
+    height: 35px;
+    width: 35px;
+  }
+  .nav-logo > h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 535px) {
+}

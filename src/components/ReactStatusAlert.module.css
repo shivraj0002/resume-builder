@@ -1,0 +1,30 @@
+.AlertboxContainer {
+  position: absolute;
+  width: 350px;
+  min-width: 350px;
+  max-width: 350px;
+  height: 50px;
+  color: white;
+  top: 11vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+  border-radius: 50px;
+  animation: fadeIn 5s;
+}
+.AlertboxContainer > section {
+       margin: 5px;
+      
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+

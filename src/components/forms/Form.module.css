@@ -1,0 +1,101 @@
+.userDataForm-container {
+  /* height: 90vh;
+  max-height: 90vh; */
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+
+.userDataForm-box {
+  width: 600px;
+  max-width: 600px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 41px;
+  box-shadow:  -35px 35px 70px #5a5a5a,
+  35px -35px 70px #ffffff;
+}
+.userDataForm-box > h1 {
+ text-align: center;
+}
+
+.userDataForm-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userDataForm-inputContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.userDataForm-inputSections > label {
+  display: block;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.userDataForm-inputSections > input {
+  height: 30px;
+  width: 15em;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.userDataForm-gmailSection {
+  display: flex;
+}
+
+.FormBtns{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.FormBtns > button {
+      margin: 10px 50px 10px 50px;
+      width: 90px;
+      height: 35px;
+      background-color: #2C5AFF;
+      color: white;
+      border: solid black 1px;
+      border-radius: 5px;
+      
+}
+.FormBtns > button:hover {
+
+  background-color: whitesmoke;
+  color: black;
+  border: #2C5AFF solid 1px ;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:461px) {
+
+  .userDataForm-box {
+    width: 90vw;
+  }
+  .userDataForm-inputSections > input{
+    width: 37vw;
+  }
+  .FormBtns{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-height:758px) {
+  .userDataForm-container {
+    height: 100%;
+  }
+  
+}

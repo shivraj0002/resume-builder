@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat&family=Lato:ital@1&family=Signika+Negative:wght@500&display=swap");
+.landing-page {
+  background-color: #dbdbdb;
+  height: 90vh;
+  width: 98.6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-page > h2 {
+    font-size: 50px;
+    margin:10px 0px 0px 0px;
+  font-family: "Alkalami", serif;
+  font-family: "Caveat", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+}
+.landing-page > h3 {
+    font-size: 35px;
+  margin:0px 0px 10px 0px;
+  font-family: "Alkalami", serif;
+  font-family: "Caveat", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+}
+.landing-page > div {
+  width: 36vw;
+  height: 56vh;
+  
+  background-image: url("../UI/illustrations/blogger.svg");
+ 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.landing-page > button {
+  width: 90px;
+  height: 35px;
+  background-color: #2c5aff;
+  color: white;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 8px 0px 8px 0px;
+}
+
+.landing-page > button:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: #2c5aff solid 2px;
+  cursor: pointer;
+}
+
